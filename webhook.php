@@ -1,8 +1,8 @@
 <?php
 /*アクセストークン代入*/
-$accessToken = getenv('ACCESS_TOKEN');
+$accessToken = getenv('rRN3K3ic5K1yuAYk016fLCXZhQlJqJjhgGF+iv6fLQSrOai8lOMtfBpVdQfsr2Bgy3YzCKOh+hFnONOGZWvBAu7virAbtnU86IChplpzhWIUvmS6Uf3sBwwFQyuTEPqoZjjWg6PdYroQ3ejG9vWHWgdB04t89/1O/w1cDnyilFU=');
 /*チャンネルシークレット代入*/
-$channel_secret = getenv('CHANNEL_SECRET');
+$channel_secret = getenv('86d8fe81b925d4b23ca05332d9b04c2c');
 /*データ取り出し*/
 $jsonString = file_get_contents('php://input');
 /*エラーわかりやすく*/
